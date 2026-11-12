@@ -1,0 +1,5 @@
+service,record_count,avg_cpu,avg_memory,avg_latency_ms,max_latency_ms,avg_error_rate
+auth-service,12513,42.13,51.75,340.55,3997.52,2.89
+cloudops-api,12522,41.89,51.58,331.03,3996.27,2.75
+frontend,12509,41.99,51.5,328.12,3999.91,2.78
+notification-service,12456,42.25,51.88,343.14,3992.34,2.89

@@ -1,0 +1,8 @@
+{
+  "input_records": 50000,
+  "clean_records": 50000,
+  "services_analysed": 4,
+  "processing_engine": "Apache Spark",
+  "execution_mode": "Local two-worker demonstration",
+  "source": "Synthetic cloud telemetry dataset"
+}
