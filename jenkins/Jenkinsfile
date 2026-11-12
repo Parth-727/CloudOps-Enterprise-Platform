@@ -7,6 +7,7 @@ pipeline {
     }
 
     stages {
+
         stage('Checkout') {
             steps {
                 echo 'CloudOps Enterprise Platform pipeline started.'
@@ -33,7 +34,13 @@ pipeline {
 
         stage('Docker Build') {
             steps {
-                sh 'docker compose -f backend/cloudops-backend/compose.yaml build'
+                echo 'Building CloudOps backend Docker image.'
+
+                sh '''
+                    docker build \
+                        -t cloudops-backend:ci \
+                        backend/cloudops-backend
+                '''
             }
         }
     }
