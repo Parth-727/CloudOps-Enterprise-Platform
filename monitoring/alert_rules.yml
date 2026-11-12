@@ -1,0 +1,11 @@
+groups:
+  - name: cloudops-alerts
+    rules:
+      - alert: CloudOpsBackendDown
+        expr: up{job="cloudops-backend"} == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "CloudOps backend is down"
+          description: "Prometheus cannot reach the CloudOps backend for more than one minute."

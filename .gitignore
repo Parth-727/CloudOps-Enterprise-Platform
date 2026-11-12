@@ -1,0 +1,60 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+**/!.env.example
+
+# Node.js
+node_modules/
+frontend/node_modules/
+
+# Frontend build output
+frontend/dist/
+
+# Java / Maven
+**/target/
+*.class
+*.jar
+*.war
+
+# Logs
+*.log
+logs/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Private keys and credentials
+*.pem
+*.key
+*.p12
+*.pfx
+credentials
+credentials.*
+secrets/
+.aws/
+
+# Terraform generated files and state
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# Kubernetes local configuration
+kubeconfig
+.kube/
+
+# Allow safe environment variable templates
+!**/.env.example
+
+# Local backup files
+*.backup
