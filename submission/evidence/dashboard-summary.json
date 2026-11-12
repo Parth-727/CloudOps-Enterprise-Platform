@@ -1,0 +1,8 @@
+{
+  "deployments": 3,
+  "activeServices": 3,
+  "totalServices": 4,
+  "systemHealth": "Operational",
+  "failedDeployments": 0,
+  "uptime": "99.9%"
+}

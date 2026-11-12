@@ -1,0 +1,6 @@
+NAME                                  READY   STATUS    RESTARTS   NODE
+cloudops-backend-85ff6fcf57-5vfbd     1/1     Running   2          desktop-control-plane
+cloudops-frontend-668f8757-qbqz8      1/1     Running   0          desktop-control-plane
+postgres-6cd684d88f-v58sm             1/1     Running   0          desktop-control-plane
+
+Source: terminal output supplied by the project owner on 12 November 2026.

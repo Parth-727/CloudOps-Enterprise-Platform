@@ -1,0 +1,4 @@
+NAME                READY   UP-TO-DATE   AVAILABLE   AGE
+cloudops-backend    1/1     1            1           3m39s
+cloudops-frontend   1/1     1            1           3m39s
+postgres            1/1     1            1           3m39s

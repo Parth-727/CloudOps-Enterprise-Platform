@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0",
+  "message": "Backend is running successfully",
+  "status": "UP",
+  "backend": "Spring Boot",
+  "application": "CloudOps Enterprise Platform"
+}

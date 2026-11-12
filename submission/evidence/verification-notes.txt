@@ -1,0 +1,13 @@
+CloudOps Enterprise Platform - verification notes
+Date: 12 November 2026
+
+- Application dashboard loaded at http://localhost:8082 through Kubernetes frontend service port-forward.
+- GET /api/status returned HTTP 200 and status UP.
+- GET /api/dashboard/summary returned HTTP 200.
+- Kubernetes frontend, backend and PostgreSQL pods each reported 1/1 Running.
+- Prometheus screenshot showed cloudops-backend target as 1/1 UP. The displayed last-scrape age was approximately 28 minutes; treat this as a point-in-time screenshot, not a fresh scrape guarantee.
+- Grafana screenshot showed HTTP request-rate and CPU panels with plotted data. The HTTP 95th-percentile duration panel displayed No data. Some database panel values should not be interpreted as validated production telemetry.
+- Jenkins project history: latest successful pipeline #11 was reported by the owner. The supplied Jenkins screenshot is specifically successful build #3; it does not visually prove build #11.
+- Backend Maven package stage completed with automated tests skipped.
+- Kubernetes deployment is on local Docker Desktop (context docker-desktop), not Amazon EKS or other managed cloud Kubernetes.
+- AWS application deployment and Terraform infrastructure were previously completed. Do not modify or destroy AWS resources as part of this submission.

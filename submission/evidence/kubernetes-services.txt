@@ -1,0 +1,5 @@
+NAME                        TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)          AGE
+cloudops-backend-service    NodePort    10.96.128.143   <none>        8080:30080/TCP   3m39s
+cloudops-frontend-service   NodePort    10.96.225.81    <none>        80:30081/TCP     3m39s
+kubernetes                  ClusterIP   10.96.0.1       <none>        443/TCP          13m
+postgres-service            ClusterIP   10.96.251.220   <none>        5432/TCP         3m39s

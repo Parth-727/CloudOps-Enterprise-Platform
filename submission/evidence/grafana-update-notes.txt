@@ -1,0 +1,12 @@
+Additional Grafana evidence — 12 November 2026
+
+A later screenshot was supplied after the initial report package was assembled.
+It visibly shows:
+- Backend Availability panel displaying UP.
+- Application Uptime panel with a plotted increasing uptime series.
+- JVM Memory Usage panel with plotted heap memory series.
+- HTTP Request Rate panel with plotted request-rate data.
+- Database Active Connections panel with a flat active series and an idle series.
+- The HTTP Request Duration - 95th Percentile panel is only partly visible at the bottom of this screenshot; this image does not establish that the panel is working.
+
+This is a later visual snapshot and does not replace the earlier note that the 95th-percentile latency panel showed No data in the previously supplied dashboard screenshot.
